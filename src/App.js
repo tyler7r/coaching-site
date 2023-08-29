@@ -1,17 +1,20 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import './app.css';
 import { Home } from './Home';
 import { Contact } from './Contact';
 import { Pricing } from './Pricing';
 import { Header } from './Header';
 
 function App() {
+  const [menuOpen, setMenuOpen] = useState(true);
+
   return (
     <BrowserRouter>
       <div className="App">
-        <Header />
+        <Header menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         <Routes>
-          <Route path='/' element={<Home />} />
+          <Route path='/' element={<Home menuOpen={menuOpen} />} />
           <Route path='/contact' element={<Contact />} />
           <Route path='/pricing' element={<Pricing />} />
         </Routes>

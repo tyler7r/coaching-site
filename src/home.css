@@ -1,0 +1,133 @@
+/* min-width 1038px */
+
+#homepage-container {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    position: absolute;
+}
+
+#homepage-image {
+    height: 100%;
+    width: 80%;
+    position: absolute;
+    right: 0;
+}
+
+#intro-container {
+    position: absolute;
+    z-index: 2;
+    top: 30%;
+    max-width: 30%;
+    left: 5%;
+    /* background-color: #da5a10; */
+    background-color: lightgray;
+    color: black;
+    padding: 16px;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+#intro-name {
+    font-size: 48px;
+    background: linear-gradient(to top, #da5a10 60%, rgb(0, 0, 0, 0) 50%);
+    width: 70%;
+    padding: 0px 24px 18px 0px;
+}
+
+#intro-numbers-container {
+    display: flex;
+    gap: 8px;
+    margin: -24px 0px 16px 12%;
+    font-size: 18px;
+    color:white;
+}
+
+#intro-title {
+    position: absolute;
+    top: 25%;
+    left: 7%;
+    color: darkgray;
+    font-size: 18px;
+}
+
+#homepage-links-container {
+    position: absolute;
+    z-index: 2;
+    font-size: 54px;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    right: 5%;
+    top: 20%;
+    text-align: right;
+}
+
+.homepage-link-container {
+    z-index: 2;
+    padding: 0px 8px 10px 32px;
+}
+
+.homepage-link-container:hover {
+    background: linear-gradient(to top, #da5a10 60%, rgb(0, 0, 0, 0) 40%);
+}
+
+.homepage-link {
+    text-decoration: none;
+    color: white;
+}
+
+#useful-links-title {
+    position: absolute;
+    top: 75%;
+    left: 7%;
+    color: darkgray;
+}
+
+.link-description {
+    color: black;
+    font-size: 16px;
+    position: absolute;
+    z-index: 3;
+    left: 2%;
+}
+
+#about-description {
+    top: 15%;
+}
+
+#pricing-description {
+    top: 55%;
+}
+
+#contact-description {
+    top: 94%;
+}
+
+#useful-links-container {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 80%;
+    left: 5%;
+}
+
+.useful-link {
+    height: 40px;
+    width: 40px;
+}
+
+.useful-link-image {
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+
+.useful-link-image:hover {
+    filter: invert(37%) sepia(88%) saturate(3076%) hue-rotate(7deg) brightness(97%) contrast(87%);
+}
+
+/* min-width 1038px */

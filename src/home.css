@@ -3,7 +3,6 @@
 #homepage-container {
     height: 100%;
     width: 100%;
-    position: relative;
     position: absolute;
 }
 
@@ -94,15 +93,15 @@
 }
 
 #about-description {
-    top: 15%;
+    top: 39%;
 }
 
 #pricing-description {
-    top: 55%;
+    top: 67%;
 }
 
 #contact-description {
-    top: 94%;
+    top: 96%;
 }
 
 #useful-links-container {

@@ -7,8 +7,6 @@ import InstagramIcon from './images/instagram.svg';
 import './home.css';
 
 export const Home = (props) => {
-    const { menuOpen } = props;
-    const [hover, setHover] = useState('about');
     
     return (
         <div id='homepage-container'>
@@ -32,28 +30,6 @@ export const Home = (props) => {
                 <Link className='useful-link' to='https://www.instagram.com/tyler7randall/'><img src={InstagramIcon} className='useful-link-image' alt='instagram-link' /></Link>
             </div>
             <img src={HomeImage} alt='home-page-background' id='homepage-image' />
-            {menuOpen && 
-                <div id='homepage-links-container'>
-                    <div className="homepage-link-container" onMouseEnter={() => setHover('about')} onMouseLeave={() => setHover('')}>
-                        <Link to='/about' className='homepage-link'>About Me</Link>
-                    </div>
-                    {hover === 'about' &&
-                        <div className='link-description' id='about-description'>QUALIFICATIONS</div>
-                    }
-                    <div className="homepage-link-container" onMouseEnter={() => setHover('pricing')} onMouseLeave={() => setHover('')}>
-                        <Link to='/pricing' className='homepage-link'>Pricing</Link>
-                    </div>
-                    {hover === 'pricing' &&
-                        <div className='link-description' id='pricing-description'>LESSON OPTIONS + RATES</div>
-                    }
-                    <div className="homepage-link-container" onMouseEnter={() => setHover('contact')} onMouseLeave={() => setHover('')}>
-                        <Link to='/contact' className='homepage-link'>Contact</Link>
-                    </div>
-                    {hover === 'contact' &&
-                        <div className='link-description' id='contact-description'>BOOK A SESSION</div>
-                    }
-                </div>
-            }
         </div>
     )
 }

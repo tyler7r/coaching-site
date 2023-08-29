@@ -3,6 +3,12 @@ body {
     padding: 0;
 }
 
+@media (min-width: 391px) {
+    .App {
+        min-width: 1280px;
+    }
+}
+
 .App {
     display: flex;
     flex-direction: column;

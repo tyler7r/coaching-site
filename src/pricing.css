@@ -49,7 +49,7 @@
 
 #individual-pricing-title {
     top: 30%;
-    left: 10%;
+    left: 5%;
 }
 
 #group-section {
@@ -59,7 +59,7 @@
 
 #group-pricing-title {
     top: 65%;
-    left: 10%;
+    left: 5%;
 }
 
 .option-description {
@@ -80,10 +80,6 @@
     justify-content: space-around;
     font-size: 28px;
     font-weight: bold;
-}
-
-.option-select-btn {
-
 }
 
 .option-select-btn.selected, .option-select-btn:hover {

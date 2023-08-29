@@ -1,5 +1,6 @@
 import React from 'react'
 import ContactImage from './images/contact-image.jpg'
+import ContactImage2 from './images/contact-image2.jpg'
 import EmailIcon from './images/email.svg'
 import PhoneIcon from './images/phone.svg'
 import './contact.css'
@@ -9,6 +10,7 @@ export const Contact = (props) => {
         <div id='contact-container'>
             <div id='contact-title'>Contact</div>
             <img src={ContactImage} alt='main' id='contact-image' />
+            <img src={ContactImage2} alt='secondary' id='contact-image2' />
             <div id='contact-details'>
             <div id='contact-message'>You're so close to upping your Ultimate game, book today!</div>
                 <div className='contact-detail-container'>

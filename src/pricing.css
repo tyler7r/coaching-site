@@ -1,0 +1,92 @@
+#pricing-container {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+#pricing-title {
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    font-size: 36px;
+    z-index: 2;
+}
+
+#pricing-image {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    right: 0;
+}
+
+.pricing-section-title {
+    color: darkgray;
+    position: absolute;
+}
+
+.pricing-section {
+    background-color: lightgray;
+    z-index: 2;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 32px;
+    padding: 16px;
+}
+
+.pricing-info {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    justify-content: center;
+}
+
+#individual-section {
+    top: 35%;
+    left: 7%;
+}
+
+#individual-pricing-title {
+    top: 30%;
+    left: 10%;
+}
+
+#group-section {
+    top: 70%;
+    left: 7%;
+}
+
+#group-pricing-title {
+    top: 65%;
+    left: 10%;
+}
+
+.option-description {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 24px;
+}
+
+.option-price {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#option-select-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.option-select-btn {
+
+}
+
+.option-select-btn.selected, .option-select-btn:hover {
+    cursor: pointer;
+    background: linear-gradient(to top, #da5a10 40%, rgb(0, 0, 0, 0) 50%);
+}

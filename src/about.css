@@ -9,8 +9,10 @@
     position: absolute;
     top: 17%;
     left: 5%;
-    font-size: 36px;
+    font-size: 42px;
     z-index: 1;
+    font-family: 'Inter';
+    font-weight: bold;
 }
 
 #view-select-container {
@@ -33,11 +35,11 @@
 
 .view-select-btn:hover {
     cursor: pointer;
-    background: linear-gradient(to top, #da5a10 30%, rgb(0, 0, 0, 0) 40%);
+    background: linear-gradient(to top, #da5a10 40%, rgb(0, 0, 0, 0) 40%);
 }
 
 .view-select-btn.selected {
-    background: linear-gradient(to top, #da5a10 30%, rgb(0, 0, 0, 0) 40%);
+    background: linear-gradient(to top, #da5a10 40%, rgb(0, 0, 0, 0) 40%);
 }
 
 .about-background-container {
@@ -53,6 +55,16 @@
 .background-title {
     font-size: 24px;
     margin: 8px 0px 8px 0px;
+    font-weight: bold;
+    color: white;
+    max-width: 35%;
+    background: linear-gradient(to top, #da5a10 50%, rgb(0, 0, 0, 0) 40%);
+    padding: 0px 12px 4px 8px;
+    font-family: 'Montserrat';
+}
+
+#academy-title {
+    max-width: 80%;
 }
 
 .about-image {
@@ -84,11 +96,16 @@
         top: 27%;
         width: 80%;
         left: 7%;
-        border: 2px solid #da5a10;
     }
 
     .background-title {
         font-size: 22px;
         font-weight: bold;
+        max-width: 50%;
+    }
+
+    #academy-title {
+        max-width: 100%;
+        font-size: 21px;
     }
 }

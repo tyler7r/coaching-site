@@ -32,9 +32,11 @@
 #intro-name {
     font-size: 48px;
     background: linear-gradient(to top, #da5a10 60%, rgb(0, 0, 0, 0) 50%);
-    width: 70%;
+    width: 85%;
     color: white;
     padding: 0px 24px 18px 0px;
+    font-family: 'Montserrat';
+    font-weight: bold;
 }
 
 #intro-numbers-container {
@@ -105,13 +107,13 @@
     }
 
     #useful-links-title {
-        top: 78%;
+        top: 82%;
         left: 15%;
         color: white;
     }
 
     #useful-links-container {
-        top: 82%;
+        top: 87%;
         left: 11%;
     }
 

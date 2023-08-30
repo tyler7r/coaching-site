@@ -19,7 +19,8 @@ export const Contact = (props) => {
                 :   <img src={ContactImage} alt='secondary' id='contact-image' />
             }
             <div id='contact-details'>
-            <div id='contact-message'>You're so close to upping your Ultimate game. I'm based in Grant Park but I'm happy to meet at a park near you! Book today!</div>
+                <div id='contact-details-title'>Book Today!</div>
+                <div id='contact-message'>You're so close to upping your Ultimate game. I'm based in Grant Park but I'm happy to meet at a park near you! Let's get started!</div>
                 <div className='contact-detail-container'>
                     <img src={EmailIcon} alt='email-icon' className='contact-detail-image' />
                     <a href='mailto:tyler7r@gmail.com' className='contact-detail-info'>tyler7r@gmail.com</a>

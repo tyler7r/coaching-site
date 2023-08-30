@@ -7,9 +7,11 @@
 #pricing-title {
     position: absolute;
     top: 17%;
-    left: 5%;
-    font-size: 36px;
+    left: 2%;
+    font-size: 42px;
     z-index: 1;
+    font-family: 'Inter';
+    font-weight: bold;
 }
 
 #pricing-image {
@@ -20,8 +22,13 @@
 }
 
 .pricing-section-title {
-    color: darkgray;
-    position: absolute;
+    background: linear-gradient(to top, #da5a10 40%, rgb(0, 0, 0, 0) 40%);
+    max-width: 50%;
+    padding: 0px 8px 0px 8px;
+    font-size: 36px;
+    color: white; 
+    font-family: 'Montserrat';
+    font-weight: bold;
 }
 
 .pricing-section {
@@ -31,46 +38,44 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 32px;
-    padding: 24px;
+    gap: 18px;
+    padding: 18px;
 }
 
 .pricing-info {
     display: flex;
     flex-direction: column;
-    gap: 32px;
+    gap: 18px;
     justify-content: center;
 }
 
 #individual-section {
-    top: 30%;
+    top: 25%;
     left: 7%;
 }
 
 #individual-pricing-title {
-    top: 25%;
-    left: 5%;
+    max-width: 60%;
 }
 
 #group-section {
-    top: 67%;
+    top: 62%;
     left: 7%;
 }
 
 #group-pricing-title {
-    top: 62%;
-    left: 5%;
+    max-width: 37%;
 }
 
 .option-description {
     display: flex;
     align-items: center;
     gap: 4px;
-    font-size: 28px;
+    font-size: 26px;
 }
 
 .option-price {
-    font-size: 32px;
+    font-size: 30px;
     font-weight: bold;
 }
 
@@ -84,13 +89,15 @@
 
 .option-select-btn.selected, .option-select-btn:hover {
     cursor: pointer;
-    background: linear-gradient(to top, #da5a10 40%, rgb(0, 0, 0, 0) 50%);
+    background: linear-gradient(to top, #da5a10 40%, rgb(0, 0, 0, 0) 40%);
 }
 
 @media (max-width: 380px) {
     #pricing-title {
         color: white;
         font-size: 42px;
+        left: 60%;
+        top: 25%;
     }
 
     #pricing-image {
@@ -99,24 +106,23 @@
     }
 
     .pricing-section {
-        gap: 24px;
+        gap: 18px;
         padding: 12px;
-        border: 2px solid #da5a10;
     }
 
     .pricing-info {
-        gap: 24px;
+        gap: 18px;
     }
 
     .option-description {
         display: flex;
         align-items: center;
         gap: 4px;
-        font-size: 24px;
+        font-size: 20px;
     }
     
     .option-price {
-        font-size: 28px;
+        font-size: 24px;
         font-weight: bold;
     }
 
@@ -126,8 +132,7 @@
     }
     
     #individual-pricing-title {
-        top: 30%;
-        left: 8%;
+        max-width: 80%;
     }
     
     #group-section {
@@ -136,9 +141,6 @@
     }
     
     #group-pricing-title {
-        top: 63%;
-        left: 65%;
-        color: white;
-        font-size: 18px;
+        max-width: 45%;
     }
 }

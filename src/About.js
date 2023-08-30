@@ -43,7 +43,7 @@ export const About = (props) => {
                             Middle School
                         </div>
                         <div>Over the last two years I've coached three semesters of middle school ultimate for Arbor Montessori. I helped build the program up again after COVID. My first semester we started with 10 kids and no way to play games due to restrictions and by last Fall we had over 25 kids on the roster and we won the championship!</div>
-                        <div className='background-title'>
+                        <div className='background-title' id='academy-title'>
                             Atlanta Hustle Youth Academy
                         </div>
                         <div>Last winter, I was the head coach for the Hustle's Youth Academy. I had the opportunity to coach over 30+ of Atlanta's best high-school ultimate players. Several of the U-17 girls who attended the program went on to win the 2023 Youth Championships in Colorado this year with rATLers YCC.</div>

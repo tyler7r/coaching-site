@@ -13,11 +13,13 @@
 }
 
 #contact-title {
-    font-size: 36px;
+    font-size: 48px;
     position: absolute;
     top: 20%;
-    left: 8%;
+    left: 5%;
     z-index: 1;
+    font-family: 'Inter';
+    font-weight: bold;
 }
 
 #contact-image2 {
@@ -37,7 +39,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     gap: 24px;
 }
 
@@ -53,7 +54,14 @@
     gap: 4px;
 }
 
-.contact-detail-title {
+#contact-details-title {
+    text-align: left;
+    color: white;
+    font-size: 42px;
+    background: linear-gradient(to top, #da5a10 40%, rgb(0, 0, 0, 0) 40%);
+    padding: 0px 8px 2px 12px;
+    max-width: 80%;
+    font-family: 'Montserrat';
     font-weight: bold;
 }
 
@@ -66,7 +74,7 @@
 
 .contact-detail-info:hover {
     cursor: pointer;
-    background: linear-gradient(to top, #da5a10 40%, rgb(0, 0, 0, 0) 50%);
+    background: linear-gradient(to top, #da5a10 40%, rgb(0, 0, 0, 0) 40%);
 
 }
 
@@ -84,18 +92,22 @@
         font-size: 42px;
         color: white;
         top: 46%;
-        left: 60%;
+        left: 55%;
     }
 
     #contact-details {
         max-width: 80%;
         top: 55%;
         gap: 12px;
-        border: 2px solid #da5a10;
+    }
+
+    #contact-details-title {
+        max-width: 80%;
+        font-size: 36px;
     }
 
     #contact-message {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .contact-detail-info {

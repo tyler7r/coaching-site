@@ -82,7 +82,7 @@
     height: 60px;
 }
 
-@media (max-width: 380px) {
+@media (max-width: 390px) {
     #contact-image {
         height: 100%;
         width: 100%;

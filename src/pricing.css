@@ -92,7 +92,7 @@
     background: linear-gradient(to top, #da5a10 40%, rgb(0, 0, 0, 0) 40%);
 }
 
-@media (max-width: 380px) {
+@media (max-width: 390px) {
     #pricing-title {
         color: white;
         font-size: 42px;

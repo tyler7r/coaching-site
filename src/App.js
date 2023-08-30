@@ -12,7 +12,7 @@ function App() {
   const [mobileView, setMobileView] = useState(false);
 
   const handleResize = () => {
-    if (window.innerWidth >= 381) {
+    if (window.innerWidth >= 391) {
       setMobileView(false)
     } else {
       setMobileView(true);
@@ -20,7 +20,7 @@ function App() {
   }
 
   useEffect(() => {
-    if (window.innerWidth <= 380) {
+    if (window.innerWidth <= 390) {
       setMobileView(true)
     }
   }, [])

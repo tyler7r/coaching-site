@@ -95,7 +95,7 @@
     top: 96%;
 }
 
-@media (max-width: 380px) {
+@media (max-width: 390px) {
     #overlay {
         position: absolute;
         z-index: 2;

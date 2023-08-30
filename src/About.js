@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
 import AboutDesktop from './images/carousel1.jpg'
 import AboutMobile from './images/about-mobile.jpg'
 import './about.css'

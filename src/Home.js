@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import HomeImage from './images/home-image.jpg'
 import MobileImage from './images/carousel2.jpg'

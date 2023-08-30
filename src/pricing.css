@@ -6,7 +6,7 @@
 
 #pricing-title {
     position: absolute;
-    top: 20%;
+    top: 17%;
     left: 5%;
     font-size: 36px;
     z-index: 2;
@@ -32,7 +32,7 @@
     flex-direction: column;
     justify-content: center;
     gap: 32px;
-    padding: 16px;
+    padding: 24px;
 }
 
 .pricing-info {
@@ -43,22 +43,22 @@
 }
 
 #individual-section {
-    top: 35%;
+    top: 30%;
     left: 7%;
 }
 
 #individual-pricing-title {
-    top: 30%;
+    top: 25%;
     left: 5%;
 }
 
 #group-section {
-    top: 70%;
+    top: 67%;
     left: 7%;
 }
 
 #group-pricing-title {
-    top: 65%;
+    top: 62%;
     left: 5%;
 }
 
@@ -66,11 +66,11 @@
     display: flex;
     align-items: center;
     gap: 4px;
-    font-size: 24px;
+    font-size: 28px;
 }
 
 .option-price {
-    font-size: 28px;
+    font-size: 32px;
     font-weight: bold;
 }
 

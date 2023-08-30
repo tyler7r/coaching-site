@@ -3,7 +3,7 @@ body {
     padding: 0;
 }
 
-@media (min-width: 391px) {
+@media (min-width: 381px) {
     .App {
         min-width: 1280px;
     }

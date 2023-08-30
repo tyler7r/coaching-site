@@ -1,13 +1,14 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import HomeImage from './images/home-image.jpg'
+import MobileImage from './images/carousel2.jpg'
 import EmailIcon from './images/email.svg';
 import VenmoIcon from './images/venmo.svg';
 import InstagramIcon from './images/instagram.svg';
 import './home.css';
 
 export const Home = (props) => {
-    
+    const { mobileView } = props;
     return (
         <div id='homepage-container'>
             <div id='intro-title'>INTRO</div>
@@ -29,7 +30,10 @@ export const Home = (props) => {
                 <Link className='useful-link' to='https://account.venmo.com/u/Tyler-Randall-11'><img src={VenmoIcon} className='useful-link-image' alt='venmo-link' /></Link>
                 <Link className='useful-link' to='https://www.instagram.com/tyler7randall/'><img src={InstagramIcon} className='useful-link-image' alt='instagram-link' /></Link>
             </div>
-            <img src={HomeImage} alt='home-page-background' id='homepage-image' />
+            {mobileView === false
+                ? <img src={HomeImage} alt='home-page-background' id='homepage-image' />
+                : <img src={MobileImage} alt='home-page-background' id='homepage-image' />
+            }
         </div>
     )
 }

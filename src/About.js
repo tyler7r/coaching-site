@@ -5,16 +5,8 @@ import Carousel2 from './images/carousel2.jpg'
 import './about.css'
 
 export const About = (props) => {
-    const [carouselImage, setCarouselImage] = useState(2);
+    const { mobileView } = props;
     const [view, setView] = useState('COACHING');
-
-    const carouselBtn = (btn) => {
-        if (btn === carouselImage) {
-            return <div className='carousel-btn selected' onClick={() => setCarouselImage(btn)}></div>
-        } else {
-            return <div className='carousel-btn' onClick={() => setCarouselImage(btn)}></div>
-        }
-    }
 
     const viewBtn = (btn) => {
         if (btn === view) {
@@ -41,18 +33,10 @@ export const About = (props) => {
                 {viewBtn('COACHING')}
                 {viewBtn('PLAYING')}
             </div>
-            <div id='about-image-carousel'>
-                {carouselImage === 1 &&
-                    <img src={Carousel1} alt='carousel' className='carousel-image' />
-                }
-                {carouselImage === 2 && 
-                    <img src={Carousel2} alt='carousel' className='carousel-image' />
-                }
-                <div id='carousel-select-container'>
-                    {carouselBtn(1)}
-                    {carouselBtn(2)}
-                </div>
-            </div>
+            {mobileView === false
+                ? <img src={Carousel1} alt='carousel' className='about-image' />
+                : <img src={Carousel2} alt='carousel' className='about-image' />
+            }    
             {view === 'COACHING' &&
                 <div className='about-background-container' id='coaching-background-container'>
                     <div className='about-background-info'>

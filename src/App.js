@@ -22,6 +22,7 @@ function App() {
   useEffect(() => {
     if (window.innerWidth <= 390) {
       setMobileView(true)
+      setMenuOpen(false);
     }
   }, [])
 

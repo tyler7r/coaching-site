@@ -47,7 +47,7 @@
     background-color: lightgray;
     top: 35%;
     left: 10%;
-    padding: 12px;
+    padding: 8px;
     width: 40%;
     z-index: 1;
 }
@@ -94,8 +94,8 @@
 
     .about-background-container {
         top: 27%;
-        width: 80%;
-        left: 7%;
+        width: 87%;
+        left: 4%;
     }
 
     .background-title {

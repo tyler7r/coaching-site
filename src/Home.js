@@ -21,7 +21,7 @@ export const Home = (props) => {
                     <div className='intro-number'>Chain #11</div>
                 </div>
                 <div id='intro-description'>
-                    Hi! I'm an Ultimate fanatic, who plays for the Atlanta Hustle and Atlanta Chain Lightning. I also love coaching anyone who will listen, so let't get started!
+                    Hi! I'm an Ultimate fanatic, who plays for the Atlanta Hustle and Atlanta Chain Lightning. I also love coaching anyone who will listen, so let's get started!
                 </div>
             </div>
             <div id='useful-links-title'>USEFUL LINKS</div>

@@ -1,8 +1,10 @@
 import React, { useState } from 'react'
 import PricingImage from './images/pricing-image.jpg'
+import PricingMobile from './images/pricing-image2.jpg'
 import './pricing.css'
 
 export const Pricing = (props) => {
+    const { mobileView } = props;
     const [groupOption, setGroupOption] = useState('2-3')
 
     const optionSelect = (option) => {
@@ -16,7 +18,10 @@ export const Pricing = (props) => {
     return (
         <div id='pricing-container'>
             <div id='pricing-title'>Pricing</div>
-            <img src={PricingImage} alt='main' id='pricing-image' />
+            {mobileView === false 
+                ? <img src={PricingImage} alt='main' id='pricing-image' />
+                : <img src={PricingMobile} alt='main' id='pricing-image' />
+            }
             <div className='pricing-section-title' id='individual-pricing-title'>INDIVIDUAL</div>
             <div className='pricing-section' id='individual-section'>
                 <div className='option-description'>1-Hour Session: <div className='option-price'>$80</div></div>

@@ -6,13 +6,20 @@ import PhoneIcon from './images/phone.svg'
 import './contact.css'
 
 export const Contact = (props) => {
+    const { mobileView } = props;
+
     return (
         <div id='contact-container'>
             <div id='contact-title'>Contact</div>
-            <img src={ContactImage} alt='main' id='contact-image' />
-            <img src={ContactImage2} alt='secondary' id='contact-image2' />
+            {mobileView === false 
+                ?   <div id='contact-image-container'>
+                        <img src={ContactImage} alt='main' id='contact-image' />
+                        <img src={ContactImage2} alt='secondary' id='contact-image2' />
+                    </div>
+                :   <img src={ContactImage} alt='secondary' id='contact-image' />
+            }
             <div id='contact-details'>
-            <div id='contact-message'>You're so close to upping your Ultimate game, book today!</div>
+            <div id='contact-message'>You're so close to upping your Ultimate game. I'm based in Grant Park but I'm happy to meet at a park near you! Book today!</div>
                 <div className='contact-detail-container'>
                     <img src={EmailIcon} alt='email-icon' className='contact-detail-image' />
                     <a href='mailto:tyler7r@gmail.com' className='contact-detail-info'>tyler7r@gmail.com</a>

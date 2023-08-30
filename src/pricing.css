@@ -9,7 +9,7 @@
     top: 17%;
     left: 5%;
     font-size: 36px;
-    z-index: 2;
+    z-index: 1;
 }
 
 #pricing-image {
@@ -26,7 +26,7 @@
 
 .pricing-section {
     background-color: lightgray;
-    z-index: 2;
+    z-index: 1;
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -85,4 +85,60 @@
 .option-select-btn.selected, .option-select-btn:hover {
     cursor: pointer;
     background: linear-gradient(to top, #da5a10 40%, rgb(0, 0, 0, 0) 50%);
+}
+
+@media (max-width: 380px) {
+    #pricing-title {
+        color: white;
+        font-size: 42px;
+    }
+
+    #pricing-image {
+        height: 100%;
+        width: 100%;
+    }
+
+    .pricing-section {
+        gap: 24px;
+        padding: 12px;
+        border: 2px solid #da5a10;
+    }
+
+    .pricing-info {
+        gap: 24px;
+    }
+
+    .option-description {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+        font-size: 24px;
+    }
+    
+    .option-price {
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+    #individual-section {
+        top: 34%;
+        left: 7%;
+    }
+    
+    #individual-pricing-title {
+        top: 30%;
+        left: 8%;
+    }
+    
+    #group-section {
+        top: 67%;
+        left: 5%;
+    }
+    
+    #group-pricing-title {
+        top: 63%;
+        left: 65%;
+        color: white;
+        font-size: 18px;
+    }
 }

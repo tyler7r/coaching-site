@@ -17,6 +17,7 @@
     position: absolute;
     top: 20%;
     left: 8%;
+    z-index: 1;
 }
 
 #contact-image2 {
@@ -71,4 +72,33 @@
 
 .contact-detail-image {
     height: 60px;
+}
+
+@media (max-width: 380px) {
+    #contact-image {
+        height: 100%;
+        width: 100%;
+    }
+
+    #contact-title {
+        font-size: 42px;
+        color: white;
+        top: 46%;
+        left: 60%;
+    }
+
+    #contact-details {
+        max-width: 80%;
+        top: 55%;
+        gap: 12px;
+        border: 2px solid #da5a10;
+    }
+
+    #contact-message {
+        font-size: 20px;
+    }
+
+    .contact-detail-info {
+        font-size: 20px;
+    }
 }

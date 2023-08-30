@@ -35,12 +35,12 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        <Header menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+        <Header menuOpen={menuOpen} setMenuOpen={setMenuOpen} mobileView={mobileView} />
         <Routes>
           <Route path='/' element={<Home menuOpen={menuOpen} mobileView={mobileView} />} />
           <Route path='/about' element={<About menuOpen={menuOpen} mobileView={mobileView} />} />
-          <Route path='/contact' element={<Contact />} />
-          <Route path='/pricing' element={<Pricing />} />
+          <Route path='/contact' element={<Contact mobileView={mobileView} />} />
+          <Route path='/pricing' element={<Pricing mobileView={mobileView} />} />
         </Routes>
       </div>
     </BrowserRouter>

@@ -7,7 +7,7 @@ import InstagramIcon from './images/instagram.svg'
 import './header.css'
 
 export const Header = (props) => {
-    const { setMenuOpen, menuOpen } = props
+    const { setMenuOpen, menuOpen, mobileView } = props
     const [hover, setHover] = useState('');
 
     return (
@@ -16,11 +16,13 @@ export const Header = (props) => {
             <div id='menu-icon-container'><img src={MenuIcon} alt='menu-btn' id='menu-icon' onClick={() => setMenuOpen(!menuOpen)} /></div>
             {menuOpen &&
                 <div id='overlay'>
-                    <div id='header-useful-links-container'>
-                        <a className='header-useful-link' href='mailto:tyler7r@gmail.com'><img src={EmailIcon} className='useful-link-image' alt='email-link' /></a>
-                        <Link className='header-useful-link' to='https://account.venmo.com/u/Tyler-Randall-11'><img src={VenmoIcon} className='useful-link-image' alt='venmo-link' /></Link>
-                        <Link className='header-useful-link' to='https://www.instagram.com/tyler7randall/'><img src={InstagramIcon} className='useful-link-image' alt='instagram-link' /></Link>
-                    </div>
+                    {mobileView &&
+                        <div id='header-useful-links-container'>
+                            <a className='header-useful-link' href='mailto:tyler7r@gmail.com'><img src={EmailIcon} className='useful-link-image' alt='email-link' /></a>
+                            <Link className='header-useful-link' to='https://account.venmo.com/u/Tyler-Randall-11'><img src={VenmoIcon} className='useful-link-image' alt='venmo-link' /></Link>
+                            <Link className='header-useful-link' to='https://www.instagram.com/tyler7randall/'><img src={InstagramIcon} className='useful-link-image' alt='instagram-link' /></Link>
+                        </div>
+                    }
                     <div id='header-links-container'>
                         <div className="header-link-container" onMouseEnter={() => setHover('home')} onMouseLeave={() => setHover('')}>
                             <Link onClick={() => {setMenuOpen(false); setHover('')}} to='/' className='header-link'>Home</Link>

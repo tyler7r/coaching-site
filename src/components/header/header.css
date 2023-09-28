@@ -27,8 +27,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 40%;
-  padding: 8px;
+  height: 60%;
+  padding: 0px 12px 0px 12px;
 }
 
 #menu-icon {
@@ -113,14 +113,14 @@
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 90%;
+    top: 84%;
     left: 10%;
     z-index: 1;
   }
 
   .header-useful-link {
-    height: 40px;
-    width: 40px;
+    height: 70px;
+    width: 70px;
   }
 
   .header-useful-link-image {

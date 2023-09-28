@@ -1,8 +1,8 @@
 import React from 'react'
-import ContactImage from './images/contact-image.jpg'
-import ContactImage2 from './images/contact-image2.jpg'
-import EmailIcon from './images/email.svg'
-import PhoneIcon from './images/phone.svg'
+import ContactImage from '../../images/contact-image.jpg'
+import ContactImage2 from '../../images/contact-image2.jpg'
+import EmailIcon from '../../images/email.svg'
+import PhoneIcon from '../../images/phone.svg'
 import './contact.css'
 
 export const Contact = (props) => {

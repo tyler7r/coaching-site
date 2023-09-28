@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import PricingImage from './images/pricing-image.jpg'
-import PricingMobile from './images/pricing-image2.jpg'
+import PricingImage from '../../images/pricing-image.jpg'
+import PricingMobile from '../../images/pricing-image2.jpg'
 import './pricing.css'
 
 export const Pricing = (props) => {

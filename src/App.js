@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './app.css';
-import { Home } from './Home';
-import { Contact } from './Contact';
-import { Pricing } from './Pricing';
-import { Header } from './Header';
-import { About } from './About';
+import { Home } from './components/home/Home';
+import { Contact } from './components/contact/Contact';
+import { Pricing } from './components/pricing/Pricing';
+import { Header } from './components/header/Header';
+import { About } from './components/about/About';
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(true);

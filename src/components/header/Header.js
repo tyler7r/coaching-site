@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import MenuIcon from './images/three.svg'
-import EmailIcon from './images/email.svg';
-import VenmoIcon from './images/venmo.svg';
-import InstagramIcon from './images/instagram.svg'
+import MenuIcon from '../../images/three.svg'
+import EmailIcon from '../../images/email.svg';
+import VenmoIcon from '../../images/venmo.svg';
+import InstagramIcon from '../../images/instagram.svg'
 import './header.css'
 
 export const Header = (props) => {

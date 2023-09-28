@@ -1,10 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import HomeImage from './images/home-image.jpg'
-import MobileImage from './images/carousel2.jpg'
-import EmailIcon from './images/email.svg';
-import VenmoIcon from './images/venmo.svg';
-import InstagramIcon from './images/instagram.svg';
+import HomeImage from '../../images/home-image.jpg'
+import MobileImage from '../../images/carousel2.jpg'
+import EmailIcon from '../../images/email.svg';
+import VenmoIcon from '../../images/venmo.svg';
+import InstagramIcon from '../../images/instagram.svg';
 import './home.css';
 
 export const Home = (props) => {

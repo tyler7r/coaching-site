@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
-import AboutDesktop from './images/carousel1.jpg'
-import AboutMobile from './images/about-mobile.jpg'
-import './about.css'
+import AboutDesktop from '../../images/carousel1.jpg'
+import AboutMobile from '../../images/about-mobile.jpg'
+import './about.css';
 
 export const About = (props) => {
     const { mobileView } = props;

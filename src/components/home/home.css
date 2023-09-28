@@ -108,9 +108,15 @@
   }
 
   #useful-links-title {
-    top: 82%;
-    left: 15%;
+    top: 80%;
+    left: 10%;
     color: white;
+    font-size: 26px;
+  }
+
+  .useful-link {
+    height: 50px;
+    width: 50px;
   }
 
   #useful-links-container {

@@ -1,146 +1,147 @@
 #pricing-container {
-    position: absolute;
-    height: 100%;
-    width: 100%;
+  position: absolute;
+  height: 100%;
+  width: 100%;
 }
 
 #pricing-title {
-    position: absolute;
-    top: 17%;
-    left: 2%;
-    font-size: 42px;
-    z-index: 1;
-    font-family: 'Inter';
-    font-weight: bold;
+  position: absolute;
+  top: 17%;
+  left: 2%;
+  font-size: 42px;
+  z-index: 1;
+  font-family: "Inter";
+  font-weight: bold;
 }
 
 #pricing-image {
-    position: absolute;
-    top: 0;
-    height: 100%;
-    right: 0;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  right: 0;
 }
 
 .pricing-section-title {
-    background: linear-gradient(to top, #da5a10 40%, rgb(0, 0, 0, 0) 40%);
-    max-width: 50%;
-    padding: 0px 8px 0px 8px;
-    font-size: 36px;
-    color: white; 
-    font-family: 'Montserrat';
-    font-weight: bold;
+  background: linear-gradient(to top, #da5a10 40%, rgb(0, 0, 0, 0) 40%);
+  max-width: 50%;
+  padding: 0px 8px 0px 8px;
+  font-size: 36px;
+  color: white;
+  font-family: "Montserrat";
+  font-weight: bold;
 }
 
 .pricing-section {
-    background-color: lightgray;
-    z-index: 1;
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 18px;
-    padding: 18px;
+  background-color: lightgray;
+  z-index: 1;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 18px;
+  padding: 18px;
 }
 
 .pricing-info {
-    display: flex;
-    flex-direction: column;
-    gap: 18px;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  justify-content: center;
 }
 
 #individual-section {
-    top: 25%;
-    left: 7%;
+  top: 25%;
+  left: 7%;
 }
 
 #individual-pricing-title {
-    max-width: 60%;
+  max-width: 60%;
 }
 
 #group-section {
-    top: 62%;
-    left: 7%;
+  top: 62%;
+  left: 7%;
 }
 
 #group-pricing-title {
-    max-width: 37%;
+  max-width: 37%;
 }
 
 .option-description {
-    display: flex;
-    align-items: center;
-    gap: 4px;
-    font-size: 26px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 26px;
 }
 
 .option-price {
-    font-size: 30px;
-    font-weight: bold;
+  font-size: 30px;
+  font-weight: bold;
 }
 
 #option-select-container {
-    display: flex;
-    width: 100%;
-    justify-content: space-around;
-    font-size: 28px;
-    font-weight: bold;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  font-size: 28px;
+  font-weight: bold;
 }
 
-.option-select-btn.selected, .option-select-btn:hover {
-    cursor: pointer;
-    background: linear-gradient(to top, #da5a10 40%, rgb(0, 0, 0, 0) 40%);
+.option-select-btn.selected,
+.option-select-btn:hover {
+  cursor: pointer;
+  background: linear-gradient(to top, #da5a10 40%, rgb(0, 0, 0, 0) 40%);
 }
 
 @media (max-width: 390px) {
-    #pricing-title {
-        color: white;
-        font-size: 42px;
-        left: 60%;
-        top: 25%;
-    }
+  #pricing-title {
+    color: white;
+    font-size: 42px;
+    left: 60%;
+    top: 25%;
+  }
 
-    #pricing-image {
-        height: 100%;
-        width: 100%;
-    }
+  #pricing-image {
+    height: 100%;
+    width: 100%;
+  }
 
-    .pricing-section {
-        gap: 18px;
-        padding: 12px;
-    }
+  .pricing-section {
+    gap: 18px;
+    padding: 12px;
+  }
 
-    .pricing-info {
-        gap: 18px;
-    }
+  .pricing-info {
+    gap: 18px;
+  }
 
-    .option-description {
-        display: flex;
-        align-items: center;
-        gap: 4px;
-        font-size: 20px;
-    }
-    
-    .option-price {
-        font-size: 24px;
-        font-weight: bold;
-    }
+  .option-description {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 20px;
+  }
 
-    #individual-section {
-        top: 34%;
-        left: 7%;
-    }
-    
-    #individual-pricing-title {
-        max-width: 80%;
-    }
-    
-    #group-section {
-        top: 67%;
-        left: 5%;
-    }
-    
-    #group-pricing-title {
-        max-width: 45%;
-    }
+  .option-price {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  #individual-section {
+    top: 34%;
+    left: 7%;
+  }
+
+  #individual-pricing-title {
+    max-width: 80%;
+  }
+
+  #group-section {
+    top: 67%;
+    left: 5%;
+  }
+
+  #group-pricing-title {
+    max-width: 45%;
+  }
 }

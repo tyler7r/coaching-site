@@ -1,127 +1,130 @@
 /* min-width 1038px */
 
 #homepage-container {
-    height: 100%;
-    width: 100%;
-    position: absolute;
+  height: 100%;
+  width: 100%;
+  position: absolute;
 }
 
 #homepage-image {
-    height: 100%;
-    width: 80%;
-    position: absolute;
-    right: 0;
-    z-index: 0;
+  height: 100%;
+  width: 80%;
+  position: absolute;
+  right: 0;
+  z-index: 0;
 }
 
 #intro-container {
-    position: absolute;
-    z-index: 1;
-    top: 30%;
-    max-width: 30%;
-    left: 5%;
-    /* background-color: #da5a10; */
-    background-color: lightgray;
-    color: black;
-    padding: 16px;
-    font-size: 24px;
-    display: flex;
-    flex-direction: column;
+  position: absolute;
+  z-index: 1;
+  top: 30%;
+  max-width: 30%;
+  left: 5%;
+  /* background-color: #da5a10; */
+  background-color: lightgray;
+  color: black;
+  padding: 16px;
+  font-size: 24px;
+  display: flex;
+  flex-direction: column;
 }
 
 #intro-name {
-    font-size: 48px;
-    background: linear-gradient(to top, #da5a10 60%, rgb(0, 0, 0, 0) 50%);
-    width: 85%;
-    color: white;
-    padding: 0px 24px 18px 0px;
-    font-family: 'Montserrat';
-    font-weight: bold;
+  font-size: 48px;
+  background: linear-gradient(to top, #da5a10 60%, rgb(0, 0, 0, 0) 50%);
+  width: 85%;
+  color: white;
+  padding: 0px 24px 18px 0px;
+  font-family: "Montserrat";
+  font-weight: bold;
 }
 
 #intro-numbers-container {
-    display: flex;
-    gap: 8px;
-    margin: -24px 0px 16px 12%;
-    font-size: 18px;
-    color:darkgray;
+  display: flex;
+  gap: 8px;
+  margin: -24px 0px 16px 12%;
+  font-size: 18px;
+  color: darkgray;
 }
 
 #intro-title {
-    position: absolute;
-    top: 25%;
-    left: 7%;
-    color: darkgray;
-    font-size: 18px;
+  position: absolute;
+  top: 25%;
+  left: 7%;
+  color: darkgray;
+  font-size: 18px;
 }
 
 #useful-links-title {
-    position: absolute;
-    top: 75%;
-    left: 7%;
-    color: darkgray;
-    z-index: 1;
+  position: absolute;
+  top: 75%;
+  left: 7%;
+  color: darkgray;
+  z-index: 1;
 }
 
 #useful-links-container {
-    display: flex;
-    gap: 8px;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 80%;
-    left: 5%;
-    z-index: 1;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 80%;
+  left: 5%;
+  z-index: 1;
 }
 
 .useful-link {
-    height: 40px;
-    width: 40px;
+  height: 40px;
+  width: 40px;
 }
 
 .useful-link-image {
-    height: 100%;
-    width: 100%;
-    cursor: pointer;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
 }
 
 .useful-link-image:hover {
-    filter: brightness(0) saturate(100%) invert(37%) sepia(88%) saturate(3076%) hue-rotate(7deg) brightness(97%) contrast(87%);
+  filter: brightness(0) saturate(100%) invert(37%) sepia(88%) saturate(3076%)
+    hue-rotate(7deg) brightness(97%) contrast(87%);
 }
 
 /* min-width 1038px */
 
 @media (max-width: 390px) {
-    #homepage-image {
-        width: 100%;
-    }
+  #homepage-image {
+    width: 100%;
+  }
 
-    #intro-container {
-        top: 50%;
-        max-width: 80%;
-        font-size: 18px;
-    }
+  #intro-container {
+    top: 50%;
+    max-width: 80%;
+    font-size: 18px;
+  }
 
-    #intro-name {
-        font-size: 38px;
-    }
+  #intro-name {
+    font-size: 38px;
+  }
 
-    #useful-links-title {
-        top: 82%;
-        left: 15%;
-        color: white;
-    }
+  #useful-links-title {
+    top: 82%;
+    left: 15%;
+    color: white;
+  }
 
-    #useful-links-container {
-        top: 87%;
-        left: 11%;
-    }
+  #useful-links-container {
+    top: 87%;
+    left: 11%;
+  }
 
-    .useful-link {
-        filter: invert(99%) sepia(11%) saturate(82%) hue-rotate(346deg) brightness(113%) contrast(100%);
-    }
+  .useful-link {
+    filter: invert(99%) sepia(11%) saturate(82%) hue-rotate(346deg)
+      brightness(113%) contrast(100%);
+  }
 
-    .useful-link:hover {
-        filter: brightness(0) saturate(100%) invert(37%) sepia(88%) saturate(3076%) hue-rotate(7deg) brightness(97%) contrast(87%);
-    }
+  .useful-link:hover {
+    filter: brightness(0) saturate(100%) invert(37%) sepia(88%) saturate(3076%)
+      hue-rotate(7deg) brightness(97%) contrast(87%);
+  }
 }

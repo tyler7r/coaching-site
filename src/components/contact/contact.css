@@ -1,116 +1,115 @@
 #contact-container {
-    position: absolute;
-    top:0;
-    height: 100%;
-    width: 100%;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
 }
 
 #contact-image {
-    height: 100%;
-    position: absolute;
-    top: 0;
-    right: 0;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 #contact-title {
-    font-size: 48px;
-    position: absolute;
-    top: 20%;
-    left: 5%;
-    z-index: 1;
-    font-family: 'Inter';
-    font-weight: bold;
+  font-size: 48px;
+  position: absolute;
+  top: 20%;
+  left: 5%;
+  z-index: 1;
+  font-family: "Inter";
+  font-weight: bold;
 }
 
 #contact-image2 {
-    height: 100%;
-    position: absolute;
-    top: 0;
-    right: 35%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 35%;
 }
 
 #contact-details {
-    background-color: lightgray;
-    padding: 16px;
-    position: absolute;
-    top: 32%;
-    left: 6%;
-    max-width: 30%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 24px;
+  background-color: lightgray;
+  padding: 16px;
+  position: absolute;
+  top: 32%;
+  left: 6%;
+  max-width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 24px;
 }
 
 #contact-message {
-    font-size: 24px;
-    text-align: center;
+  font-size: 24px;
+  text-align: center;
 }
 
 .contact-detail-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
 }
 
 #contact-details-title {
-    text-align: left;
-    color: white;
-    font-size: 42px;
-    background: linear-gradient(to top, #da5a10 40%, rgb(0, 0, 0, 0) 40%);
-    padding: 0px 8px 2px 12px;
-    max-width: 80%;
-    font-family: 'Montserrat';
-    font-weight: bold;
+  text-align: left;
+  color: white;
+  font-size: 42px;
+  background: linear-gradient(to top, #da5a10 40%, rgb(0, 0, 0, 0) 40%);
+  padding: 0px 8px 2px 12px;
+  max-width: 80%;
+  font-family: "Montserrat";
+  font-weight: bold;
 }
 
 .contact-detail-info {
-    text-decoration: none;
-    color: black;
-    font-size: 24px;
-    padding: 0px 16px 2px 8px;
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  padding: 0px 16px 2px 8px;
 }
 
 .contact-detail-info:hover {
-    cursor: pointer;
-    background: linear-gradient(to top, #da5a10 40%, rgb(0, 0, 0, 0) 40%);
-
+  cursor: pointer;
+  background: linear-gradient(to top, #da5a10 40%, rgb(0, 0, 0, 0) 40%);
 }
 
 .contact-detail-image {
-    height: 60px;
+  height: 60px;
 }
 
 @media (max-width: 390px) {
-    #contact-image {
-        height: 100%;
-        width: 100%;
-    }
+  #contact-image {
+    height: 100%;
+    width: 100%;
+  }
 
-    #contact-title {
-        font-size: 42px;
-        color: white;
-        top: 46%;
-        left: 55%;
-    }
+  #contact-title {
+    font-size: 42px;
+    color: white;
+    top: 46%;
+    left: 55%;
+  }
 
-    #contact-details {
-        max-width: 80%;
-        top: 55%;
-        gap: 12px;
-    }
+  #contact-details {
+    max-width: 80%;
+    top: 55%;
+    gap: 12px;
+  }
 
-    #contact-details-title {
-        max-width: 80%;
-        font-size: 36px;
-    }
+  #contact-details-title {
+    max-width: 80%;
+    font-size: 36px;
+  }
 
-    #contact-message {
-        font-size: 18px;
-    }
+  #contact-message {
+    font-size: 18px;
+  }
 
-    .contact-detail-info {
-        font-size: 20px;
-    }
+  .contact-detail-info {
+    font-size: 20px;
+  }
 }

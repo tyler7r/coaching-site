@@ -1,134 +1,136 @@
 #topnav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 2;
-    height: 100px;
-    margin: 8px 16px 16px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 2;
+  height: 100px;
+  margin: 8px 16px 16px 16px;
 }
 
 #logo-container {
-    z-index: 3;
-    background-color: #da5a10;
-    color: white;
-    font-size: 48px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 16px;
-    border: 2px solid lightgray;
-    font-weight: bold;
-    text-decoration: none;
+  z-index: 3;
+  background-color: #da5a10;
+  color: white;
+  font-size: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  border: 2px solid lightgray;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 #menu-icon-container {
-    z-index: 3;
-    background-color: #da5a10;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 40%;
-    padding: 8px;
+  z-index: 3;
+  background-color: #da5a10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40%;
+  padding: 8px;
 }
 
 #menu-icon {
-    z-index: 3;
-    height: 100%;
-    width: 100%;
-    filter: invert(99%) sepia(11%) saturate(82%) hue-rotate(346deg) brightness(113%) contrast(100%);
-    cursor: pointer;
+  z-index: 3;
+  height: 100%;
+  width: 100%;
+  filter: invert(99%) sepia(11%) saturate(82%) hue-rotate(346deg)
+    brightness(113%) contrast(100%);
+  cursor: pointer;
 }
 
 #overlay {
-    position: absolute;
-    z-index: 2;
-    top: 20%;
-    right: 5%;
-    text-align: right;
-    width: 30%;
+  position: absolute;
+  z-index: 2;
+  top: 20%;
+  right: 5%;
+  text-align: right;
+  width: 30%;
 }
 
 #header-links-container {
-    position: absolute;
-    z-index: 2;
-    font-size: 54px;
-    display: flex;
-    flex-direction: column;
-    gap: 64px;
-    right: 5%;
-    top: 20%;
-    text-align: right;
+  position: absolute;
+  z-index: 2;
+  font-size: 54px;
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  right: 5%;
+  top: 20%;
+  text-align: right;
 }
 
 .header-link-container {
-    z-index: 2;
-    padding: 0px 8px 10px 42px;
+  z-index: 2;
+  padding: 0px 8px 10px 42px;
 }
 
 .header-link-container:hover {
-    background: linear-gradient(to top, #da5a10 60%, rgb(0, 0, 0, 0) 40%);
+  background: linear-gradient(to top, #da5a10 60%, rgb(0, 0, 0, 0) 40%);
 }
 
 .header-link {
-    font-weight: bold;
-    text-decoration: none;
-    color: white;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
 }
 
 .link-description {
-    color: black;
-    font-size: 16px;
-    position: absolute;
-    z-index: 3;
-    left: 2%;
+  color: black;
+  font-size: 16px;
+  position: absolute;
+  z-index: 3;
+  left: 2%;
 }
 
 #about-description {
-    top: 39%;
+  top: 39%;
 }
 
 #pricing-description {
-    top: 67%;
+  top: 67%;
 }
 
 #contact-description {
-    top: 96%;
+  top: 96%;
 }
 
 @media (max-width: 390px) {
-    #overlay {
-        position: absolute;
-        z-index: 2;
-        top: 0;
-        left: 0;
-        height: 100%;
-        width: 100%;
-        background-color: lightgray;
-    }
-    
-    #header-useful-links-container {
-        display: flex;
-        gap: 8px;
-        justify-content: center;
-        align-items: center;
-        position: absolute;
-        top: 90%;
-        left: 10%;
-        z-index: 1;
-    }
-    
-    .header-useful-link {
-        height: 40px;
-        width: 40px;
-    }
-    
-    .header-useful-link-image {
-        height: 100%;
-        width: 100%;
-        cursor: pointer;
-    }
-    
-    .header-useful-link-image:hover {
-        filter: brightness(0) saturate(100%) invert(37%) sepia(88%) saturate(3076%) hue-rotate(7deg) brightness(97%) contrast(87%);
-    }
+  #overlay {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: lightgray;
+  }
+
+  #header-useful-links-container {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 90%;
+    left: 10%;
+    z-index: 1;
+  }
+
+  .header-useful-link {
+    height: 40px;
+    width: 40px;
+  }
+
+  .header-useful-link-image {
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+  }
+
+  .header-useful-link-image:hover {
+    filter: brightness(0) saturate(100%) invert(37%) sepia(88%) saturate(3076%)
+      hue-rotate(7deg) brightness(97%) contrast(87%);
+  }
 }
